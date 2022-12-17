@@ -1,0 +1,48 @@
+Project:  fatima_updated.prj
+
+1	contaminants
+Name	EffDens	MeanDiameter
+Co2	     0	3.34e-10
+
+Contaminant source/sink summary.
+1	source/sinks
+s/s#	type	species	zn#	As	mult	Xmin	Xmax	Ymin	Ymax	Zmin	Zmax	released	removed	stored [kg]
+1	ccf	Co2	1	   0	   1	   0	   0	   0	   0	   0	   0	7.903535e-01	0.000000e+00	0
+
+Filter challenge summary.
+5	filters
+path	Co2	element
+1p	0.000000e+00	MERV-08
+--	0.000000e+00	downstream
+2p	7.144471e-01	MERV-08
+--	2.500565e-01	downstream
+3p	0.000000e+00	penetration
+--	0.000000e+00	downstream
+4p	0.000000e+00	MERV-08
+--	0.000000e+00	downstream
+5p	0.000000e+00	zero
+--	0.000000e+00	downstream
+
+Filter loading summary.
+5	filters
+path	Co2	element	ns
+1p	0.000000e+00	MERV-08	0
+2p	4.643906e-01	MERV-08	0
+3p	0.000000e+00	penetration	0
+4p	0.000000e+00	MERV-08	0
+5p	0.000000e+00	zero	0
+
+Filter breakthrough summary.
+0	filters
+path	element	nc
+	contaminant	date	time	efficiency
+
+Interactions with ambient.
+contaminant	mass from	mass to [kg]
+Co2	0.00000e+00	2.50057e-01
+
+Simulation time:
+86400	seconds
+24	hours
+1	days
+

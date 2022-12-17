@@ -1,0 +1,51 @@
+Project:  G:\Shared drives\AML - Spring 2022\CONTAM Model_Rmvctr_pm25_ schedules\fatima.prj
+
+1	contaminants
+Name	EffDens	MeanDiameter
+pm2.5	  1000	2.5e-06
+
+Contaminant source/sink summary.
+7	source/sinks
+s/s#	type	species	zn#	As	mult	Xmin	Xmax	Ymin	Ymax	Zmin	Zmax	released	removed	stored [kg]
+1	brs	pm2.5	1	   0	  10	   0	   0	   0	   0	   0	   0	0.000000e+00	0.000000e+00	0
+2	ccf	pm2.5	1	   0	  10	   0	   0	   0	   0	   0	   0	2.412720e-11	0.000000e+00	0
+7	drs	pm2.5	1	   0	   1	   0	   0	   0	   0	   0	   0	0.000000e+00	1.970149e-11	0
+3	dvr	pm2.5	1	  40	   1	   0	   0	   0	   0	   0	   0	0.000000e+00	2.672488e-12	2.672488e-12
+4	dvr	pm2.5	1	63.25	   1	   0	   0	   0	   0	   0	   0	0.000000e+00	3.713300e-13	3.713300e-13
+5	dvr	pm2.5	1	  40	   1	   0	   0	   0	   0	   0	   0	0.000000e+00	3.119103e-17	3.119103e-17
+6	dvr	pm2.5	1	   4	  10	   0	   0	   0	   0	   0	   0	0.000000e+00	0.000000e+00	0.000000e+00
+
+Filter challenge summary.
+4	filters
+path	pm2.5	element
+1p	0.000000e+00	zero
+--	0.000000e+00	downstream
+2p	0.000000e+00	zero
+--	0.000000e+00	downstream
+3p	0.000000e+00	penetration
+--	0.000000e+00	downstream
+5p	0.000000e+00	zero
+--	0.000000e+00	downstream
+
+Filter loading summary.
+4	filters
+path	pm2.5	element	ns
+1p	0.000000e+00	zero	0
+2p	0.000000e+00	zero	0
+3p	0.000000e+00	penetration	0
+5p	0.000000e+00	zero	0
+
+Filter breakthrough summary.
+0	filters
+path	element	nc
+	contaminant	date	time	efficiency
+
+Interactions with ambient.
+contaminant	mass from	mass to [kg]
+pm2.5	0.00000e+00	0.00000e+00
+
+Simulation time:
+86400	seconds
+24	hours
+1	days
+

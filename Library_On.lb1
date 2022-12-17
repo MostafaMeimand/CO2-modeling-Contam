@@ -1,0 +1,16 @@
+ScheduleLibrary ContamW 3.4.0.0
+
+1 ! day-schedules:
+! # npts shap utyp ucnv name
+  1    2    0    1    0 On
+Off Day schedule
+ 00:00:00 0
+ 24:00:00 1
+-999
+1 ! week-schedules:
+! # utyp ucnv name
+  1    1    0 Off
+Off Week schedule
+ 1 1 1 1 1 1 1 1 1 1 1 1
+-999
+* end library.

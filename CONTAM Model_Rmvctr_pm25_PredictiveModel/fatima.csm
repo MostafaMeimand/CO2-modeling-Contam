@@ -1,0 +1,48 @@
+Project:  G:\Shared drives\AML - Spring 2022\CONTAM Model_Rmvctr_pm25_PredictiveModel\fatima.prj
+
+1	contaminants
+Name	EffDens	MeanDiameter
+Co2	     0	3.34e-10
+
+Contaminant source/sink summary.
+1	source/sinks
+s/s#	type	species	zn#	As	mult	Xmin	Xmax	Ymin	Ymax	Zmin	Zmax	released	removed	stored [kg]
+1	ccf	Co2	1	   0	   1	   0	   0	   0	   0	   0	   0	2.450096e+01	0.000000e+00	0
+
+Filter challenge summary.
+5	filters
+path	Co2	element
+1p	0.000000e+00	MERV-08
+--	0.000000e+00	downstream
+2p	2.447991e+01	MERV-08
+--	8.567968e+00	downstream
+3p	0.000000e+00	penetration
+--	0.000000e+00	downstream
+4p	0.000000e+00	MERV-08
+--	0.000000e+00	downstream
+5p	0.000000e+00	zero
+--	0.000000e+00	downstream
+
+Filter loading summary.
+5	filters
+path	Co2	element	ns
+1p	0.000000e+00	MERV-08	0
+2p	1.591194e+01	MERV-08	0
+3p	0.000000e+00	penetration	0
+4p	0.000000e+00	MERV-08	0
+5p	0.000000e+00	zero	0
+
+Filter breakthrough summary.
+0	filters
+path	element	nc
+	contaminant	date	time	efficiency
+
+Interactions with ambient.
+contaminant	mass from	mass to [kg]
+Co2	0.00000e+00	8.56797e+00
+
+Simulation time:
+2678400	seconds
+744	hours
+31	days
+

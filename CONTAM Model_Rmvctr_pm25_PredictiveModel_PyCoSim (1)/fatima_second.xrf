@@ -1,0 +1,24 @@
+File: fatima_second
+
+Results available
+  from 1/1 00:00:00
+  thru 1/1 24:00:00
+  at 3600 second time steps
+
+4 nodes  (ambient, 3 zones, 0 junctions)
+6 links  (6 paths, 0 ducts, 0 other)
+
+Cross reference data:
+SIM data     PRJ data
+Node   0  =  Ambient
+Node   1  =  zone   1
+Node   2  =  zone   2
+Node   3  =  zone   3
+
+Link   1  =  path   1
+Link   2  =  path   2
+Link   3  =  path   3
+Link   4  =  path   4
+Link   5  =  path   5
+Link   6  =  path   6
+6 links  (6 paths, 0 ducts, 0 terminals, 0 leaks)

@@ -1,0 +1,32 @@
+Program: simread
+  Version:  3.4.0.0 release 32 bit
+  Compiler: Visual C++ 1929
+Time:  Fri Apr 15 16:12:43 2022
+Parameter: fatima_second
+SIM file header data: (24)
+ Number of zones:        3
+ Number of paths:        6
+ Number of species:      1
+ Number of junctions:    0
+ Number of ducts:        0
+ Listing time step:   3600 s
+ Initial date:           1
+ Initial time:           0 s
+ Final date:             1
+ Final time:         86400 s
+ Link flow results available
+ Node flow results available
+ Node mass results available
+ Number of flow nodes:   4
+ Number of mass nodes:   4
+ Number of flow links:   6
+Data begins at 180 in SIM file.
+
+Results available from Jan01 00:00:00 to Jan01 24:00:00
+Select contaminants (1-1):
+  user response: 1
+
+Select nodes (0-3):
+  user response: 1
+
+Final: 235 bytes allocated, 235 freed, 0 net

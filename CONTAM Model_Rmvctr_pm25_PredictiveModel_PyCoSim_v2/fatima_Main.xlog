@@ -1,0 +1,15 @@
+Program:  C:\Users\mosta\Desktop\CONTAM Model_Rmvctr_pm25_PredictiveModel_PyCoSim\contamx3.exe
+  Version:  3.4.0.1 release 32 bit
+  Compiler: Visual C++ 1929
+  Created:  Mon Dec  6 15:05:40 2021
+Project (_file_name):  fatima_Main.prj
+cwd: C:\Users\mosta\Desktop\CONTAM Model_Rmvctr_pm25_PredictiveModel_PyCoSim
+prj arg = fatima_Main.prj
+_pdrive , _pdir , _prjname fatima_Main, _pext .prj
+
+Calling arguments (2):
+	argv[0] = contamx3
+	argv[1] = fatima_Main.prj
+Running ContamX 3.4.0.1 on fatima_Main.prj
+ERROR  (file prj-read-x, line 166)
+ Could not open file fatima_Main.prj
